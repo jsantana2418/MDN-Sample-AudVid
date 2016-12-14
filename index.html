@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Audio *& Video Sample</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv-printshiv.min.js" type="text/javascript"></script><![endif]-->
+</head>
+
+<body>
+    <h1>Evil White Bunny</h1>
+    <video controls>
+			<source src="rabbit320.mp4" type="video/mp4">
+			<source src="rabbit320.webm" type="video/webm">
+			<track label="English" kind="subtitles" srclang="en" src="sample-en.vtt" default>
+			<track label="Español" kind="subtitles" srclang="es" src="sample-es.vtt">
+		</video>
+    <h2>Audio</h2>
+    <div style="margin: 2.5em auto; text-align: center">
+        <audio controls>
+      <source src="viper.mp3" type="audio/mp3">
+      <source src="viper.ogg" type="audio/ogg">
+      <p>Your browser doesn't support HTML5 audio. Here is a <a href="viper.mp3">link to the audio</a> instead.</p>
+</audio>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
